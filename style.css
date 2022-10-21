@@ -112,6 +112,7 @@ div#extra > p > a::after{
     color: rgba(128, 128, 128, 0.473);
 }
 footer{
+    max-width: 800px;
     background-color: #063D1E;
     color: #ffff;
     width: 800px;
