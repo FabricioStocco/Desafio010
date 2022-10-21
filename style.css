@@ -1,0 +1,125 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@font-face {
+    font-family: idroid;
+    src: url(fontes/idroid.otf)
+    format('opentype')
+}
+    
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    line-height: 2em;
+    text-indent: 20px;
+}
+body{
+    background-color: #C5EBD6;
+    margin: 0px;
+}
+header {
+    height: auto;
+    width: auto;
+    padding: 10px 0px 0px 0px;
+    background-image: linear-gradient(to bottom, #3DDC84, #2FA866, #063D1E);
+}
+header > h1 {
+    text-align: center;
+    color: #ffff;
+    font-weight: normal;
+    font-family: 'Bebas Neue', cursive;
+}
+header > p{
+    text-align: center;
+    color: #ffff;
+    font-size: 0.8em;
+}
+nav{
+    padding: 5px;
+}
+nav > a {
+    color: #ffff;
+    font-size: 0.9em;
+    padding: 3px;
+    font-weight: bold;
+    text-decoration: none;
+}
+nav > a:hover{
+    background-color: #C5EBD6;
+    color: #063D1E;
+    text-decoration: underline;
+}
+main{
+    background-color: white;
+    max-width: 800px;
+    padding: 10px;
+    margin:auto;
+}
+h2{
+    font-family: 'Idroid';
+    color: #063D1E;
+    font-size: 2em;
+    font-weight: normal;
+    text-shadow: 1px 1px 1px black;
+}
+h3{
+    font-family: 'Idroid';
+    font-weight: normal;
+    background-color: #C5EBD6;
+    color: #063D1E;
+    text-shadow: 0.5px 0.5px 0.3px rgba(0, 0, 0, 0.637);
+    padding-left: 5px;
+}
+aside{
+    position: relative;
+    background-color: #063D1E;
+    height: 0px;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: 15;
+    padding-bottom: 59%;
+}
+aside > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+div#extra {
+    background-color: #C5EBD6;
+    border-radius: 10px;
+}
+div#extra > h4{ 
+    background-color: #2FA866;
+    color: #ffff;
+    font-size: 1.2em;
+    border-radius: 10px 10px 0px 0px;
+    padding: 5px;
+}
+div#extra > p{
+    padding:5px;
+}
+li{
+    color: black;
+}
+
+div#extra > p > a{
+    color: #063D1E;
+    font-weight: bold;
+}
+div#extra > p > a::after{
+    content:' ←';
+    color: rgba(128, 128, 128, 0.473);
+}
+footer{
+    background-color: #063D1E;
+    color: #ffff;
+    width: 800px;
+    padding: 0px 10px 0px 10px;
+    margin:auto;
+}
+footer > p{
+    text-align: center;
+    font-size: 0.8em;
+    margin: 0px;
+}
