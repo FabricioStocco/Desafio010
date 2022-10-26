@@ -57,6 +57,7 @@ main{
 h2{
     font-family: 'Idroid';
     color: #063D1E;
+    text-align: left;
     font-size: 2em;
     font-weight: normal;
     text-shadow: 1px 1px 1px black;
